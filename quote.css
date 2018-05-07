@@ -1,0 +1,82 @@
+.body {
+	background-image:url(images.jpeg);
+	border-image-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+
+
+}
+
+
+.whole {
+	width: 70%;
+	background-color: linen;
+	margin-left: 10%;
+	border: 2px groove black;
+	margin-top: 2%;
+ 
+
+}
+
+.title {
+	border:2px groove green;
+	width: 50%;	
+	text-align: center;
+	padding: 5%;
+	height: auto;
+	display: block;
+	font-family: sans-serif;
+	font-style: normal;
+	margin-left: 25%;
+	outline-style: double;
+	margin-top: 5%;
+	background-color: #cee202;
+}
+
+
+.quotes {
+	display: block;
+	text-align: center;
+	border: 3px groove purple;
+	width: 55%;
+	height: 100%;
+	margin-left: 25%;
+	background-color: lightpink;
+	font-size: 20px;
+	color: blue;
+
+
+}
+
+.button {
+	border: 2px solid blue;
+	width: 25%;
+	height: 40%;
+	margin-left: 20%;
+	margin-top: 5%;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-size: 20px;
+
+
+}
+
+.quote {
+	text-align: center;
+	font-style: Sofia;
+	font-weight: 20px;
+	font-size: 150%;
+	
+ }
+
+ #para1 {
+ 	text-align: right;
+ 	margin-right: 15px;
+ }
+
+ #para() {
+ 	font-size: 50%;
+ 	font-weight: 50px;
+ 	font-family:sans-serif;
+
+ }

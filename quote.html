@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quotes machine</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="quote.css" rel="stylesheet" type="text/css">
+  
+</head>
+<body class="body">
+  <div class="whole">
+        <div class="title">
+     			<h1>Random Quotes machine</h1>
+     			<h3>Warning: These quotes may inspire you.</h3>
+        </div>
+          <hr width="5px">
+    
+          <div class="quotes">
+        	<p id='para'></p>
+          <p id="para1"></p>
+          </div>
+            
+          
+
+        	  
+            <p id="click"></p>
+        		<button class="button" onclick="next()"><b>Get Quotes</b></button> 
+        		<button class="button" onclick="clean()"><b>Clear</b></button>
+
+</div>
+<script>
+  var quotes_all = ["Love for ALL, Hatred for NONE","Die with memories, not with dreams","Aspire to Inspire  before we Expire","Have a enough courage to start, and enough heart to finish!!","There is no substitute for Hard Work.","How we look is not important, as how we act.","Something is better then Nothing","What consumes your mind, Controls your life.","Life becaomes easiar when you to eccept apology you never got","Turn your woons into wisdom","life is like riding a cycle, to keep your balance you must keep on moving","Good Better Best  Never let it rest,till your good is better and your better is Best","Thye secret of getting a head is geeting started","IF not us, who? If not now, When?","Doubt kills more dreams then failure evr win","You can and you will","learn from yesterday, live for today, hope for tommorow","if you cannopt do great things, do small things in a great way","Mistakes are the part of dues that one pays for full life","dont rays your voice, improve your arguments", "If you judge people you have no time to love them"];
+
+var author = ['Khalifatul Masih ', 'Mark Twain','T.S Eliot','Jessica N.','Thomas Edison','Sunita Sen','Lebron James','Maya Anglo','R. braule','Arisoti','Albert Einstien',' St jermone','Joel brown','john kennedy','suzi kessel','Pablo pisaco','shakespear','Budha','Mahatama Gandhi','Sophia','Anne Frank','Mather teresa'];
+
+
+
+document.getElementById('para').innerHTML=quotes_all[0];
+document.getElementById("para1").innerHTML=author[0];
+
+
+ function next() {
+   var a = Math.floor(Math.random() * quotes_all.length);
+   var b = Math.floor(Math.random() * author.length);
+
+
+  document.getElementById('para').innerHTML = quotes_all[a];
+  document.getElementById("para1").innerHTML = author[b];
+
+ }
+
+
+
+
+
+
+function clean() {
+
+  alert("Have A Nice day Ahead!!!");
+
+}
+
+
+</script>
+ 
+</body>
+<!-- <script src="quote.js"></script>
+ --></html>
